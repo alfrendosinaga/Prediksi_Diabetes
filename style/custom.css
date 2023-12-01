@@ -1,0 +1,74 @@
+/* CSS styles here... */
+/* Ganti warna background form dan border */
+.stTextInput, .stTextArea, .stSelectbox {
+    background-color: #f5f5f5;
+    border: 5px solid #009688;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Ganti warna label input Nama */
+.stTextInput label[for="nama"] {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+/* Ganti warna label input Alamat */
+.stTextArea label[for="alamat"] {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+/* Ganti warna label input Jenis Kelamin */
+.stSelectbox label[for="jenis_kelamin"] {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+/* Ganti warna latar belakang button Reset, Simpan Hasil, Info, Tentang Kami */
+.stButton button {
+    background-color: #009688;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Ganti warna teks button Reset, Simpan Hasil, Info, Tentang Kami saat di hover */
+.stButton button:hover {
+    background-color: #007a60;
+}
+
+/* Ganti warna teks di kolom diagnosis */
+.stSuccess {
+    color: #009688;
+}
+
+/* Gaya untuk form identitas pasien */
+.identity-form {
+    background-color: #f5f5f5;
+    border: 1px solid #009688;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk label input */
+.input-label {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+/* Gaya untuk subheader */
+.st-subheader {
+    color: #009688;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
