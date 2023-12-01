@@ -98,7 +98,7 @@ def app():
     # Menampilkan hasil diagnosis di kotak hijau
     if diab_diagnosis:
 
-           background_color = "#007acc" if diab_diagnosis == "Anda Menderita Diabetes" else "#007acc"
+           background_color = "#007acc" if diab_diagnosis == "Anda Menderita Diabetes" else "#006837"
            text_color = "white"
            st.markdown(
                 f"""
